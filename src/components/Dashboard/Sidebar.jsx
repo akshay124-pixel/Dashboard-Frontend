@@ -121,15 +121,6 @@ const AdminDashboard = () => {
                 src="https://avatars.githubusercontent.com/u/110231091?s=400&u=dfefa66e38cbdd84674e1a9f55737a51827b8725&v=4"
                 mr={4}
               />
-              <Box>
-                <Heading size="md">Ritesh Kr. Shukla</Heading>
-                <Text
-                  fontSize="sm"
-                  color={useColorModeValue("gray.500", "gray.400")}
-                >
-                  Web Developer
-                </Text>
-              </Box>
             </Flex>
           </DrawerBody>
         </DrawerContent>
