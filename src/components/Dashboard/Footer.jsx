@@ -1,6 +1,17 @@
 import React from "react";
-import { Box, Text, Link, Flex, useColorModeValue, Icon } from "@chakra-ui/react";
-import { RiFacebookBoxFill, RiTwitterFill, RiInstagramFill } from "react-icons/ri";
+import {
+  Box,
+  Text,
+  Link,
+  Flex,
+  useColorModeValue,
+  Icon,
+} from "@chakra-ui/react";
+import {
+  RiFacebookBoxFill,
+  RiTwitterFill,
+  RiInstagramFill,
+} from "react-icons/ri";
 
 const Footer = () => {
   const footerBgColor = useColorModeValue("gray.100", "gray.700");
@@ -16,9 +27,6 @@ const Footer = () => {
         mx="auto"
         px={4}
       >
-        <Text fontSize="sm" color="gray.500">
-          &copy; 2023 Ritesh Kr. Shukla. All rights reserved.
-        </Text>
         <Flex alignItems="center">
           <Link mx={2} fontSize="sm" color="gray.500">
             Privacy Policy
