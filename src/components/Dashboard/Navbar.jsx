@@ -5,7 +5,6 @@ import {
   Container,
   Input,
   IconButton,
-  Avatar,
   Menu,
   MenuButton,
   MenuList,
@@ -33,6 +32,7 @@ const Navbar = () => {
       window.location.href = "/";
     }, 2000);
   };
+
   return (
     <Box
       py={2}

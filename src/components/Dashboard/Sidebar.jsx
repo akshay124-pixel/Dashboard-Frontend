@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-  Box,
   Container,
   Drawer,
   DrawerBody,
@@ -9,11 +8,9 @@ import {
   DrawerContent,
   IconButton,
   useDisclosure,
-  Select,
   Divider,
   Text,
   Flex,
-  Heading,
   Avatar,
   List,
   ListItem,
@@ -34,11 +31,6 @@ import {
 
 const AdminDashboard = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [selectedOption, setSelectedOption] = useState("");
-
-  const handleOptionChange = (event) => {
-    setSelectedOption(event.target.value);
-  };
 
   return (
     <Container>
@@ -80,7 +72,6 @@ const AdminDashboard = () => {
             />
 
             <List spacing={3}>
-              {/* ... Your list items */}
               <ListItem cursor="pointer">
                 <ListIcon as={MdDashboard} fontSize="xl" />
                 Dashboard
